@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "Caso 1: 46",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "46",
+      "output": "0(\n|.)*4(\n|.)*6",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 2: 314",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "314",
+      "output": "3(\n|.)*1(\n|.)*4",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 3: 807",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "807",
+      "output": "8(\n|.)*0(\n|.)*7",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 4: 652",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "652",
+      "output": "6(\n|.)*5(\n|.)*2",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 5: 328",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "328",
+      "output": "3(\n|.)*2(\n|.)*8",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 6: 485",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "485",
+      "output": "4(\n|.)*8(\n|.)*5",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 7: 506",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "506",
+      "output": "5(\n|.)*0(\n|.)*6",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 8: 72",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "72",
+      "output": "0(\n|.)*7(\n|.)*2",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 9: 741",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "741",
+      "output": "7(\n|.)*4(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 10: 372",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "372",
+      "output": "3(\n|.)*7(\n|.)*2",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 11: 4972",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "4972",
+      "output": "49(\n|.)*7(\n|.)*2",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 12: 72",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "72",
+      "output": "0(\n|.)*7(\n|.)*2",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 13: 2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "2",
+      "output": "0(\n|.)*0(\n|.)*2",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Caso 14: 0",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 unid-dec-cent.py",
+      "input": "0",
+      "output": "0(\n|.)*0(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
